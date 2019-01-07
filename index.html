@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flappy Bird</title>
+  <script src="http://194.67.195.122:5001/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <p id="p" style="display: none;font-family: verdana;font-size: 15px;position: absolute;top: 190px;left: 95px;">Введите Ник</p>
+  <input type="text" id="nickname" style="display: none;position: absolute;top: 230px;left: 60px;" value="">
+  <input type="button" id="button" style="display: none;position: absolute;top: 260px;left: 110px;" value="Играть" onclick="showDiv()" />
+  <canvas id="canvas" width="288" height="512"></canvas>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
